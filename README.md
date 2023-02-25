@@ -11,6 +11,9 @@
 ```
 $ cd functions
 $ npm install
+
+# 下記ファイルにKEYを記載して作成
+# - functions/src/config/firebase.ts
 ```
 
 - deploy
@@ -26,6 +29,10 @@ $ npm run deploy
 ```
 $ cd web
 $ npm install
+
+# 下記ファイルにKEYを記載して作成
+# - web/src/config/key.ts
+# - web/src/config/firebase.ts
 ```
 
 - debug
